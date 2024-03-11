@@ -4,30 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="44970a89-ad39-4077-ba7e-513a6681f39e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/myfirstProject.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/array.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_type.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/declare_inisialisasi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dictionary.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exception_handling.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/expression.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/formatted_string.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/if_else.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/list.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/looping.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/operation_list_set_string.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python_interpreter.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sekuensial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/slicing_tuple.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/transform_angka_char_string.py" afterDir="false" />
+    <list default="true" id="44970a89-ad39-4077-ba7e-513a6681f39e" name="Changes" comment="new learning update">
+      <change afterPath="$PROJECT_DIR$/Function&amp;Procedure/global_local_variable.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Function&amp;Procedure/hello.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Function&amp;Procedure/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Function&amp;Procedure/procedure.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Function&amp;Procedure/quiz.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Fundamental Matriks/matrix.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Fundamental Matriks/operation_matrix.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP/capsulation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP/class.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP/inheritance.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP/kalkulator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP/name_exception.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP/quiz.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unitTest/testing.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unitTest/testing_simulation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/array.py" beforeDir="false" afterPath="$PROJECT_DIR$/Array and its process/array.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,10 +32,17 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="Python Unit Test" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--follow-tags" />
+        <option name="title" value="Current Branch" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectColorInfo">{
@@ -55,28 +56,39 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;Python.array.executor&quot;: &quot;Run&quot;,
-    &quot;Python.exception_handling.executor&quot;: &quot;Run&quot;,
-    &quot;Python.expression.executor&quot;: &quot;Run&quot;,
-    &quot;Python.formatted_string.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;Python.sekuensial.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Python tests.Python tests for testing.TestStringMethods.test_index.executor": "Run",
+    "Python tests.Python tests for testing_simulation.TestUser.test_user_default_not_active.executor": "Run",
+    "Python tests.Python tests for testing_simulation.TestUser.test_user_is_active.executor": "Run",
+    "Python tests.Python tests in testing.py.executor": "Run",
+    "Python tests.Python tests in testing_simulation.py.executor": "Run",
+    "Python.array.executor": "Run",
+    "Python.exception_handling.executor": "Run",
+    "Python.expression.executor": "Run",
+    "Python.formatted_string.executor": "Run",
+    "Python.inheritance.executor": "Run",
+    "Python.main (1).executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.matrix.executor": "Run",
+    "Python.name_exception.executor": "Run",
+    "Python.quiz.executor": "Run",
+    "Python.sekuensial.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Programming Courses\Course Python\myfirstProject\Array and its process" />
       <recent name="D:\Programming Courses\Course Python\myfirstProject" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python tests.Python tests for testing_simulation.TestUser.test_user_default_not_active">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="myfirstProject" />
       <option name="ENV_FILES" value="" />
@@ -99,6 +111,90 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Python tests for testing.TestStringMethods.test_index" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="myfirstProject" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/unitTest" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;testing.TestStringMethods.test_index&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for testing_simulation.TestUser.test_user_default_not_active" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="myfirstProject" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/unitTest" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;testing_simulation.TestUser.test_user_default_not_active&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for testing_simulation.TestUser.test_user_is_active" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="myfirstProject" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/unitTest" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;testing_simulation.TestUser.test_user_is_active&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests in testing.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="myfirstProject" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/unitTest" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/unitTest/testing.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests in testing_simulation.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="myfirstProject" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/unitTest" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/unitTest/testing_simulation.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.Python tests for testing_simulation.TestUser.test_user_default_not_active" />
+        <item itemvalue="Python tests.Python tests for testing_simulation.TestUser.test_user_is_active" />
+        <item itemvalue="Python tests.Python tests in testing_simulation.py" />
+        <item itemvalue="Python tests.Python tests for testing.TestStringMethods.test_index" />
+        <item itemvalue="Python tests.Python tests in testing.py" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -116,9 +212,33 @@
       <option name="presentableId" value="Default" />
       <updated>1706793752204</updated>
     </task>
+    <task id="LOCAL-00001" summary="new learning update">
+      <option name="closed" value="true" />
+      <created>1708872470845</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1708872470845</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.dart" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="new learning update" />
+    <option name="LAST_COMMIT_MESSAGE" value="new learning update" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/slicing_tuple.py</url>
+          <line>21</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
